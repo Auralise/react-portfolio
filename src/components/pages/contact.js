@@ -55,7 +55,7 @@ const Contact = () => {
                 id="name" 
                 name="name" 
                 value={name} 
-                onClick={handleInputChange} 
+                onChange={handleInputChange} 
                 className="form-control" 
             />
 
