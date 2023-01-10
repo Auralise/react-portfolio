@@ -37,16 +37,16 @@ function SiteContainer() {
 
     return (
         <div className="site-wrapper">
-            <header>
+            <header className="header-content">
                 <Header />
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             </header>
 
-            <main>
+            <main className="main-content">
                 {renderPage(currentPage)}
             </main>
 
-            <footer>
+            <footer className="footer-content">
                 <Footer />
             </footer>   
         </div>
