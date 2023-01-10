@@ -17,17 +17,17 @@ import Resume from "./pages/resume";
 
 
 function SiteContainer() {
-    const [currentPage, setCurrentPage] = useState("Portfolio");
+    const [currentPage, setCurrentPage] = useState("About");
 
     const renderPage = () => {
-        if (currentPage === "About") {
-            return <About />
+        if (currentPage === "Portfolio") {
+            return <Portfolio />
         } else if (currentPage === "Contact") {
             return <Contact />
         } else if (currentPage === "Resume"){
             return <Resume />
         } else {
-            return <Portfolio />
+            return <About />
         }
     }
 
