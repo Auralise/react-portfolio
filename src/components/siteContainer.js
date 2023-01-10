@@ -46,8 +46,9 @@ function SiteContainer() {
                 {renderPage(currentPage)}
             </main>
 
-            {/* Footer semantic element is used as the parent element in the footer component */}    
-            <Footer />
+            <footer>
+                <Footer />
+            </footer>   
         </div>
     )
 
