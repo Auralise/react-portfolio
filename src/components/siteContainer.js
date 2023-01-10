@@ -16,7 +16,7 @@ import Resume from "./pages/resume";
 
 
 
-function SiteContainer() {
+const SiteContainer = () => {
     const [currentPage, setCurrentPage] = useState("About");
 
     const renderPage = () => {
