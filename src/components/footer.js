@@ -10,12 +10,12 @@ const Footer = () => {
 
             <ul>
                 <li>
-                    <a href="https://github.com/auralise">
+                    <a href="https://github.com/auralise" target="_blank" rel="noreferrer">
                         GitHub
                     </a>
                 </li>
                 <li>
-                    <a href="https://linkedin.com">
+                    <a href="https://linkedin.com" target="_blank" rel="noreferrer">
                         LinkedIn
                     </a>
                 </li>
