@@ -37,17 +37,18 @@ function SiteContainer() {
 
     return (
         <div className="site-wrapper">
-            <header>
+            <header className="header-content">
                 <Header />
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             </header>
 
-            <main>
+            <main className="main-content">
                 {renderPage(currentPage)}
             </main>
 
-            {/* Footer semantic element is used as the parent element in the footer component */}    
-            <Footer />
+            <footer className="footer-content">
+                <Footer />
+            </footer>   
         </div>
     )
 
