@@ -36,7 +36,7 @@ const SiteContainer = () => {
 
 
     return (
-        <div className="site-wrapper">
+        <div className="site-wrapper container">
             <header className="header-content">
                 <Header />
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
