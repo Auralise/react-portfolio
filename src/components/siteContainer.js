@@ -37,10 +37,10 @@ const SiteContainer = () => {
 
     return (
         <div className="site-wrapper container container-md">
-            <header className="header-content bg-light p-lg-3">
+            <header className="header-content bg-light pt-lg-1 ps-lg-3 pe-lg-3 d-flex">
                 {/* TODO: Colours */}
-                <nav className="navbar navbar-expand-lg d-lg-flex">
-                    <Header handlePageChange={handlePageChange} />
+                <Header handlePageChange={handlePageChange} />
+                <nav className="navbar navbar-expand-lg ms-auto">
                     <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 </nav>
             </header>
@@ -49,7 +49,7 @@ const SiteContainer = () => {
                 {renderPage(currentPage)}
             </main>
 
-            <footer className="footer-content">
+            <footer className="footer-content sticky-bottom">
                 <Footer />
             </footer>   
         </div>
