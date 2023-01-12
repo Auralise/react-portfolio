@@ -3,16 +3,6 @@ import React from "react";
 const Navigation = ({currentPage, handlePageChange}) => {
     return (
         <ul className="navigation">
-            <li className="nav-item"> 
-                <a 
-                href="#portfolio"
-                onClick={() => handlePageChange("Portfolio")}
-                className={currentPage === "Portfolio" ? "nav-link active" : "nav-link" }
-                >
-                    Portfolio
-                </a>
-            </li>
-
             <li className="nav-item">
                 <a
                 href="#about"
@@ -20,6 +10,16 @@ const Navigation = ({currentPage, handlePageChange}) => {
                 className={currentPage === "About" ? "nav-link active" : "nav-link"}
                 >
                     About Me
+                </a>
+            </li>
+
+            <li className="nav-item"> 
+                <a 
+                href="#portfolio"
+                onClick={() => handlePageChange("Portfolio")}
+                className={currentPage === "Portfolio" ? "nav-link active" : "nav-link" }
+                >
+                    Portfolio
                 </a>
             </li>
 
