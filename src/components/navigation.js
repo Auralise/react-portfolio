@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = ({currentPage, handlePageChange}) => {
     return (
-        <ul className="navigation">
+        <ul className="navigation navbar-nav mb-2 me-lg-1 mb-lg-0">
             <li className="nav-item">
                 <a
                 href="#about"
