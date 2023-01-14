@@ -73,14 +73,15 @@ const Contact = () => {
             <textarea 
                 id="message" 
                 name="message" 
-                className="form-control"
+                className="form-control mb-2"
                 value={message} 
                 onChange={handleInputChange} 
             />
 
-            { errorMessage && <div>
-                <p className="error-text">{errorMessage}</p>
-            </div>
+            { errorMessage && 
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
             }
 
             <button 
