@@ -8,13 +8,13 @@ const Footer = () => {
                 All content designed and developed by James Prince
             </p>
 
-            <ul>
-                <li>
+            <ul className="list-group-flush">
+                <li className="list-group-item">
                     <a href="https://github.com/auralise" target="_blank" rel="noreferrer">
                         GitHub
                     </a>
                 </li>
-                <li>
+                <li className="list-group-item">
                     <a href="https://linkedin.com" target="_blank" rel="noreferrer">
                         LinkedIn
                     </a>
