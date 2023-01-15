@@ -12,6 +12,7 @@ import placeholder4 from "./images/placeholder4.jpg";
 // This is hardcoded projects. This would be obtained from a backend via an API
 const projects = [
     {
+        id: 1,
         name: "Tech Blog",
         details: "A tech blog demonstrating express session management",
         link: "https://jps-tech-blog.herokuapp.com/",
@@ -19,6 +20,7 @@ const projects = [
         image: techBlog,
     },
     {
+        id: 2,
         name: "InterBook",
         details: "One of the major projects from the Monash Bootcamp course. This is a platform that can be used to sell time sessions between professionals",
         link: "https://inter-book.herokuapp.com/signin",
@@ -26,6 +28,7 @@ const projects = [
         image: interBook,
     },
     {
+        id: 3,
         name: "Placeholder 1",
         details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         link: null,
@@ -33,6 +36,7 @@ const projects = [
         image: placeholder1,
     },
     {
+        id: 4,
         name: "Placeholder 2",
         details: "Amet mauris commodo quis imperdiet massa.",
         link: null,
@@ -40,6 +44,7 @@ const projects = [
         image: placeholder2,
     },
     {
+        id: 5,
         name: "Placeholder 3",
         details: "Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis.",
         link: null,
@@ -47,6 +52,7 @@ const projects = [
         image: placeholder3,
     },
     {
+        id: 6,
         name: "Placeholder 4",
         details: "Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada",
         link: null,
@@ -55,17 +61,21 @@ const projects = [
     },
 ]
 
-const Portfolio = () => {
+const Portfolio = ({ style }) => {
 
+    
     return (
         <div className="d-flex flex-wrap">
-            {projects.map((p, i) =>
-                <Project 
-                    projectName={p.name} 
-                    projectDetails={p.details} 
-                    projectGit={p.git} 
-                    projectImage={p.image}
-                    projectLink={p.link}
+            {projects.map((project) => 
+                <Project
+                    projectId={project.id}
+                    projectName={project.name}
+                    projectDetails={project.details}
+                    projectGit={project.git}
+                    projectImage={project.image}
+                    projectLink={project.link}
+                    style={style.cards}
+                    key={project.id}
                 />
             )}
         </div>
