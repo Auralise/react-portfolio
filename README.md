@@ -13,8 +13,6 @@ This was bootstrapped with Create React App
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
-- [Technology](#technology)
 - [Credits](#credits)
 - [License](#licence)
 
@@ -25,21 +23,17 @@ This portfolio is live on [GitHub Pages](https://auralise.github.io/react-portfo
 If you would like to download and run it yourself locally, you can:
 1. Download the project
 2. From the root directory, run `npm install` to gather all of the dependencies
-3. Run `npm run start` to enter development mode
+3. Run `npm run start` to enter development mode which will start the development server that can be reached on http://localhost:3000
 
 ## Usage
 
 As mentioned earlier, this can be view on [GitHub Pages](https://auralise.github.io/react-portfolio/)
 
-## Tests
-
-No tests have been configured for this application
-
 ## Technology
 
-- ReactJS
-- Bootstrap
-- Coolers (for colour selection)
+- [ReactJS](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Coolers](https://coolors.co/)
 - Create React App
 
 
@@ -50,7 +44,6 @@ No tests have been configured for this application
 - Yana Nadolinska - Placeholder image 2 (Creative Commons Licence Source: https://www.pexels.com/photo/narrow-city-street-in-vienna-austria-12235461/)
 - Kate Trifo - Placeholder image 3 (Creative Commons Licence Source: https://www.pexels.com/photo/red-bird-perched-on-the-wooden-fence-4312845/)
 - Polina Tankilevitch - Placeholder image 4 (Creative Commons Licence Source: https://www.pexels.com/photo/arugula-leaves-4519012/)
-
 
 
 ## Licence
