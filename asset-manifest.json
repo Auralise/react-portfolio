@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
+    "main.js": "/react-portfolio/static/js/main.5d7724d6.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/profile-placeholder.png": "/react-portfolio/static/media/profile-placeholder.64ed11bde157fc2403d7.png",
+    "static/media/placeholder4.jpg": "/react-portfolio/static/media/placeholder4.36d36a1fe50caedfb413.jpg",
+    "static/media/placeholder1.jpg": "/react-portfolio/static/media/placeholder1.fa311c41e25b5a19b8ba.jpg",
+    "static/media/placeholder3.jpg": "/react-portfolio/static/media/placeholder3.d78092987ffe9c73acdb.jpg",
+    "static/media/placeholder2.jpg": "/react-portfolio/static/media/placeholder2.f03bf0fe1b22312b5206.jpg",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.96a8880a7d66328449dc.png",
+    "static/media/interbook.png": "/react-portfolio/static/media/interbook.7ba28de06ee68866c156.png",
+    "static/media/resume_example.docx": "/react-portfolio/static/media/resume_example.e28cf58b770294f99b59.docx",
+    "index.html": "/react-portfolio/index.html",
+    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
+    "main.5d7724d6.js.map": "/react-portfolio/static/js/main.5d7724d6.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.5d7724d6.js"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "short_name": "JP Portfolio",
+  "name": "James Prince Portfolio",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#eadaa2"
+}
