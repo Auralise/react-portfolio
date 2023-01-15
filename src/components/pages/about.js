@@ -13,7 +13,7 @@ const About = () => {
 
     return (
         <section> 
-            <img src={profileImage} alt="My avatar" className="float-start m-2" style={style.imageStyle} />
+            <img src={profileImage} alt="My avatar" className="float-start m-4" style={style.imageStyle} />
             <h2>About Me</h2>
             <p>
                 I am a veteran of IT Support who is currently making a switch to a career as a developer. To facilitate this, I have undertaken a bootcamp course through Monash University, focusing specifically on the MERN (MongoDB, Express, React, NodeJS) stack.

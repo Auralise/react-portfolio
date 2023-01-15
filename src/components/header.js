@@ -1,18 +1,23 @@
 import React from "react";
 
-const Header = (handlePageChange) => {
+const Header = ({ headerTextColour, handlePageChange }) => {
+
+
     return (
-        <div className="header-text">
+        <div className="header-text" >
             <h1>
-                <a 
-                href="#about"
-                onClick={() => handlePageChange("About")}
-                className="text-decoration-none text-dark"
+                <a
+                    href="#about"
+                    onClick={() => handlePageChange("About")}
+                    className="text-decoration-none"
+                    style={headerTextColour.primary}
                 >
                     James Prince
                 </a>
             </h1>
-            <p className="text-muted">Full-stack developer</p>
+            <p style={headerTextColour.muted}>
+                Full-stack developer
+            </p>
         </div>
     )
 }
